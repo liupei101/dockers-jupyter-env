@@ -4,17 +4,17 @@ Docker image of tomcat for publishing web applications.
 
 ## Usage
 
-1. copy files
+### copy files
  
 copy your `webapps` to the directory `./tomcat`.
 
-2. docker build
+### docker build
 
 ```bash
 docker build -t tomcat:app .
 ```
 
-3. docker run
+### docker run
 
 for testing the built image, use the following commands:
 ```bash
